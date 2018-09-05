@@ -27,6 +27,7 @@ public class Main {
         System.out.println("MAgnuS");
         System.out.println("TORD");
         System.out.println("Test");
+        System.out.println("TEST2");
         connection.close();
 
     }
