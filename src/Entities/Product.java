@@ -1,18 +1,22 @@
 
 package Entities;
 
-public class Products {
+public class Product {
       private Integer pno;
       private String pName;
       private Integer priceInEuro;
       private  String imageFile;
 
-      public Products(Integer pno, String pName, Integer priceInEuro, String imageFile) {
+      public Product(){
+
+      }
+      public Product(Integer pno, String pName, Integer priceInEuro, String imageFile) {
             this.pno = pno;
             this.pName = pName;
             this.priceInEuro = priceInEuro;
             this.imageFile = imageFile;
       }
+
 
       public Integer getPno() {
             return pno;

@@ -1,4 +1,7 @@
+package Main;
 
+import Controllers.DescriptionDAOController;
+import Controllers.ProductsDAOController;
 import DAO.ConnectionDAO;
 import DAO.SQLExecutor;
 
@@ -22,13 +25,13 @@ public class Main {
         SQLExecutor readSql = new SQLExecutor(fileToRead, connection);
 
 
+        ProductsDAOController prodDaoCont = new ProductsDAOController();
+        prodDaoCont.getAllProducts();
+
+        DescriptionDAOController descDaoCont = new DescriptionDAOController();
+        descDaoCont.getAllDescriptions();
+
         //Stenger tilkobling mot databasen når programmet lukkes
-        System.out.println("dette er en test for git");
-        System.out.println("MAgnuS");
-        System.out.println("TORD");
-        System.out.println("Test");
-        System.out.println("test3");
-        System.out.println("TEST2");
         connection.close();
 
     }
