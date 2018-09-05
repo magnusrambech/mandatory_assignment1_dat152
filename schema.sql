@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS cart (
 INSERT OR IGNORE INTO products
 (pno, pName, priceInEuro, imageFile)
 VALUES
-(1, 'Orange Juice', 3, 'juice.jpg'), 
+(1, 'Orange Juice', 3, 'juice.jpg'),
 (2, 'Avocado', 2, 'avocado.jpg');
 
 INSERT OR IGNORE INTO description
