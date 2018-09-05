@@ -26,6 +26,7 @@ public class Main {
         System.out.println("dette er en test for git");
         System.out.println("MAgnuS");
         System.out.println("TORD");
+        System.out.println("Test");
         connection.close();
 
     }
