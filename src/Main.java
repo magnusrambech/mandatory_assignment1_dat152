@@ -24,6 +24,7 @@ public class Main {
 
         //Stenger tilkobling mot databasen når programmet lukkes
         System.out.println("dette er en test for git");
+        System.out.println("MAgnuS");
         connection.close();
 
     }
