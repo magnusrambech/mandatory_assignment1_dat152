@@ -22,7 +22,8 @@ public class Main {
         SQLExecutor readSql = new SQLExecutor(fileToRead, connection);
 
 
-        //Stenger tilkobling mot databasen når programmet lukkes hei
+        //Stenger tilkobling mot databasen når programmet lukkes
+        System.out.println("dette er en test for git");
         connection.close();
 
     }
