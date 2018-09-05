@@ -46,6 +46,8 @@ public class ProductDAO {
                         currProd.setpName(rs.getString("pname"));
                         currProd.setPriceInEuro(rs.getInt("priceInEuro"));
                         currProd.setImageFile(rs.getString("imageFile"));
+
+                        temp.add(currProd);
                   }
 
             } catch (SQLException e) {

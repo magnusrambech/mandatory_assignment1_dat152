@@ -50,6 +50,8 @@ public class DescriptionDAO {
                         currDesc.setPno(rs.getInt("pno"));
                         currDesc.setdText(rs.getString("dText"));
                         currDesc.setLangCode(rs.getString("langCode"));
+
+                        temp.add(currDesc);
                   }
 
             } catch (SQLException e) {

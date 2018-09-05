@@ -3,7 +3,10 @@ package Main;
 import Controllers.DescriptionDAOController;
 import Controllers.ProductsDAOController;
 import DAO.ConnectionDAO;
+import DAO.DescriptionDAO;
 import DAO.SQLExecutor;
+import Entities.Description;
+import Entities.Product;
 
 import java.io.FileNotFoundException;
 import java.sql.*;
@@ -11,6 +14,7 @@ import java.sql.*;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 
 public class Main {
@@ -26,13 +30,32 @@ public class Main {
 
 
         ProductsDAOController prodDaoCont = new ProductsDAOController();
-        prodDaoCont.getAllProducts();
+        ArrayList<Product> allProducts = prodDaoCont.getAllProducts();
+
 
         DescriptionDAOController descDaoCont = new DescriptionDAOController();
-        descDaoCont.getAllDescriptions();
+        ArrayList<Description> allDesc = descDaoCont.getAllDescriptions();
+
+
+        printProducts(allProducts);
+        printDescs(allDesc);
+
+
 
         //Stenger tilkobling mot databasen når programmet lukkes
         connection.close();
 
+    }
+
+    private static void printDescs(ArrayList<Description> e) {
+            for(Description d: e){
+                System.out.println(d.getdText());
+            }
+    }
+
+    private static void printProducts(ArrayList<Product> e) {
+        for(Product p : e){
+            System.out.println(p.getpName());
+        }
     }
 }
