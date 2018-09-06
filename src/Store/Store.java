@@ -12,6 +12,7 @@ public class Store {
     DescriptionDAOController descDaoCon;
     Locale[] locales = {new Locale("en","US"), new Locale("nb","NO"),new Locale("nl","NL")};
 
+    Cart cart;
     Locale selectedLocale;
     boolean open;
     Scanner reader =  new Scanner(System.in);
@@ -24,6 +25,7 @@ public class Store {
         open = true;
         prodDaoCont = new ProductsDAOController();
         descDaoCon = new DescriptionDAOController();
+        cart = new Cart();
     }
 
 
@@ -40,7 +42,9 @@ public class Store {
            else if(choice == 3){
                changeLanguage();
            }
-
+            else if (choice == 4){
+               viewCart();
+           }
            System.out.println("Keep shopping? y/n");
            String keepShopping = reader.nextLine();
             System.out.println(keepShopping + "________________________");
@@ -70,13 +74,20 @@ public class Store {
                 valid = true;
             }
         }
+    }
 
-
-
+    private void addToCart(Integer pNo){
+        cart.addToCart(pNo);
     }
 
     private void viewCart() {
-
+        HashMap<Integer, Integer> cartMap = cart.getCart();
+        System.out.println(cartMap.keySet());
+        for (Integer pNo : cartMap.keySet()){
+            Product prod = prodDaoCont.getProductByPno(pNo);
+            Description desc = descDaoCon.getDescriptionByPno(pNo, selectedLocale.toString());
+            System.out.println("name: " + prod.getpName() + " | Description: " + desc.getdText() + " | Price: " + prod.getPriceInEuro() + " | Quantity: " + cartMap.get(pNo) + " | Total Price: " + prod.getPriceInEuro()*cartMap.get(pNo));
+        }
     }
 
     private void showProducts() {
@@ -97,7 +108,7 @@ public class Store {
         boolean valid = false;
         int choice = 0;
         while(!valid){
-            String[] possible = {"1: View products","2: View cart", "3: Change language"};
+            String[] possible = {"1: View products","2: View cart", "3: Change language","4: View cart"};
             System.out.println("Welcome to the store! What would you like to do?");
             listOptions(possible);
 
@@ -117,9 +128,6 @@ public class Store {
             System.out.println(e[i]);
         }
     }
-
-
-
 
     private static void printDescs(ArrayList<Description> e) {
         for(Description d: e){
