@@ -1,5 +1,7 @@
-
 package Entities;
+
+import Controllers.DescriptionDAOController;
+import Controllers.ProductsDAOController;
 
 import java.util.HashMap;
 

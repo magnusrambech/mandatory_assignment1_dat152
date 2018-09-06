@@ -58,5 +58,25 @@ public class ProductDAO {
             return temp;
       }
 
+      public Product getProductByPno(Integer pNo){
+            try{
+                  Statement statement =  conn.createStatement();
+                  ResultSet rs = statement.executeQuery("SELECT * FROM products WHERE pNo= '" + pNo + "'");
 
+                  while(rs.next()){
+                        Product product = new Product();
+                        product.setPno(rs.getInt("pno"));
+                        product.setpName(rs.getString("pname"));
+                        product.setPriceInEuro(rs.getInt("priceInEuro"));
+                        product.setImageFile(rs.getString("imageFile"));
+                        return product;
+                  }
+
+            } catch (SQLException e) {
+                  e.printStackTrace();
+            }
+
+
+            return null;
+      }
 }

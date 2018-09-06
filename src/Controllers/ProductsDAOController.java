@@ -18,4 +18,6 @@ public class ProductsDAOController {
     public ArrayList<Product> getAllProducts(){
        return prodDao.getAllProducts();
     }
+
+    public Product getProductByPno(Integer pNo) { return prodDao.getProductByPno(pNo);}
 }
