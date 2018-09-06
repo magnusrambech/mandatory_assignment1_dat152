@@ -4,10 +4,6 @@ CREATE TABLE IF NOT EXISTS products (
 CREATE TABLE IF NOT EXISTS description(
 	pno INTEGER, langCode TEXT, dText TEXT, FOREIGN KEY(pno) REFERENCES products, PRIMARY KEY(pno, langCode)
 );
-CREATE TABLE IF NOT EXISTS cart (
-	langCode TEXT, pno INTEGER, PRIMARY KEY(pno), FOREIGN KEY(pno, langCode) REFERENCES description, FOREIGN KEY(pno) REFERENCES products
-);
-
 
 INSERT OR IGNORE INTO products
 (pno, pName, priceInEuro, imageFile)
