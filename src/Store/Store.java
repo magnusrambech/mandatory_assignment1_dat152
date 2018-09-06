@@ -7,7 +7,6 @@ import java.sql.Connection;
 import java.util.*;
 
 public class Store {
-    CartDAOController cartDAOController;
     Connection conn;
     ProductsDAOController prodDaoCont;
     DescriptionDAOController descDaoCon;
@@ -25,7 +24,6 @@ public class Store {
         open = true;
         prodDaoCont = new ProductsDAOController();
         descDaoCon = new DescriptionDAOController();
-        cartDAOController = new CartDAOController();
     }
 
 
