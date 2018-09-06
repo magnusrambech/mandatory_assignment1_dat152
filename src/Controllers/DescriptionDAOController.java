@@ -19,8 +19,8 @@ public class DescriptionDAOController {
         return descDao.getAllDescriptions();
     }
 
-    public Description getDescriptionByPno(int pno){
-        return descDao.getDescriptionByPno(pno);
+    public Description getDescriptionByPno(int pno, String langCode){
+        return descDao.getDescriptionByPno(pno,langCode);
     }
 
 }

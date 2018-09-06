@@ -11,9 +11,8 @@ public class Store {
     Connection conn;
     ProductsDAOController prodDaoCont;
     DescriptionDAOController descDaoCon;
-    Locale enUS = new Locale("en","US");
-    Locale nbNO = new Locale("nb","NO");
-    Locale nlNL =  new Locale("nl","NL");
+    Locale[] locales = {new Locale("en","US"), new Locale("nb","NO"),new Locale("nl","NL")};
+
     Locale selectedLocale;
     boolean open;
     Scanner reader =  new Scanner(System.in);
@@ -22,7 +21,7 @@ public class Store {
 
     public Store(Connection conn){
         this.conn = conn;
-
+        selectedLocale = locales[0];
         open = true;
         prodDaoCont = new ProductsDAOController();
         descDaoCon = new DescriptionDAOController();
@@ -59,14 +58,14 @@ public class Store {
     }
 
     private void showProducts() {
-        HashMap<String, String> products = new HashMap<String, String>();
+        HashMap<Product, Description> products = new HashMap<Product, Description>();
         ArrayList<Product> allProds = prodDaoCont.getAllProducts();
         for(Product p : allProds){
-            products.put(p.getpName(),descDaoCon.getDescriptionByPno(p.getPno()).getdText());
+            products.put(p,descDaoCon.getDescriptionByPno(p.getPno(),selectedLocale.toString()));
         }
 
-        for (String k:products.keySet()){
-            System.out.println(k + " : " + products.get(k));
+        for (Product k:products.keySet()){
+            System.out.println(k.getpName() + " : " + products.get(k).getdText() + " | " + k.getPriceInEuro()  );
         }
 
     }

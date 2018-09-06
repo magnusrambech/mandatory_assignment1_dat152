@@ -16,9 +16,6 @@ public class CartDAO {
 
       private Cart newCart;
 
-      public Cart getNewCart(){
-            return newCart;
-      }
 
       public void addCart(String langCode, Integer pno){
 
