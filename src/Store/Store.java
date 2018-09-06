@@ -43,13 +43,37 @@ public class Store {
                changeLanguage();
            }
 
-           open=false;
+           System.out.println("Keep shopping? y/n");
+           String keepShopping = reader.nextLine();
+            System.out.println(keepShopping + "________________________");
+            if(keepShopping.equals("n")){
+                open=false;
+            }
+
         }
 
-        reader.close();
     }
 
     private void changeLanguage() {
+        boolean valid = false;
+        int count = 1;
+        int choice = 0;
+        while(!valid){
+            System.out.println("Availables languages:");
+            for(Locale l:locales){
+                System.out.println(count + ": " + l.toString());
+                count++;
+            }
+
+            choice = reader.nextInt();
+
+            if (choice > 0 && choice <= locales.length){
+                selectedLocale = locales[choice-1];
+                valid = true;
+            }
+        }
+
+
 
     }
 
@@ -80,6 +104,7 @@ public class Store {
             listOptions(possible);
 
             choice = reader.nextInt();
+            reader.nextLine();
             if(choice <= possible.length && choice >  0){
                 valid = true;
             }
@@ -90,10 +115,11 @@ public class Store {
     }
 
     private void listOptions(String[] e){
-        for (int i = 0; i < e.length ; i++) {
+        for(int i = 0; i < e.length ; i++) {
             System.out.println(e[i]);
         }
     }
+
 
 
 
