@@ -66,14 +66,13 @@ public class DescriptionDAO {
                   Description desc = new Description();
             try{
                   Statement statement = conn.createStatement();
-                  ResultSet rs = statement.executeQuery("SELECT * FROM description WHERE pno=" + pno + " AND langCode=" );
+                  ResultSet rs = statement.executeQuery("SELECT * FROM description WHERE pno='" + pno + "' AND langCode='" + langCode + "' ");
 
                   while(rs.next()){
                         desc = new Description();
                         desc.setLangCode(rs.getString("langCode"));
                         desc.setdText(rs.getString("dText"));
                         desc.setPno(rs.getInt("pno"));
-                        System.out.println(rs.getString("dText"));
                   }
 
 
