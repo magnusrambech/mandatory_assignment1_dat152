@@ -6,17 +6,17 @@ import java.util.HashMap;
 public class Cart {
 
       private HashMap<Integer, Integer> cart;
-      
+
 
       public Cart() {
             this.cart = new HashMap<>();
       }
 
-      public void addToCart(Integer pNo, Integer quantity){
+      public void addToCart(Integer pNo){
             if(cart.containsKey(pNo)){
-                  cart.put(pNo, cart.get(pNo) + quantity);
+                  cart.put(pNo, cart.get(pNo) + 1);
             } else {
-                  cart.put(pNo, quantity);
+                  cart.put(pNo, 1);
             }
       }
 
