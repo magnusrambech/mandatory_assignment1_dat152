@@ -19,4 +19,8 @@ public class DescriptionDAOController {
         return descDao.getAllDescriptions();
     }
 
+    public Description getDescriptionByPno(int pno){
+        return descDao.getDescriptionByPno(pno);
+    }
+
 }

@@ -4,10 +4,7 @@ import Controllers.*;
 import Entities.*;
 
 import java.sql.Connection;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Locale;
-import java.util.Scanner;
+import java.util.*;
 
 public class Store {
     CartDAOController cartDAOController;
@@ -37,12 +34,41 @@ public class Store {
         while(open){
             //Ask for input
            int choice =  askForInput();
-
+           if(choice == 1){
+               showProducts();
+           }
+           else if(choice == 2){
+               viewCart();
+           }
+           else if(choice == 3){
+               changeLanguage();
+           }
 
            open=false;
         }
 
         reader.close();
+    }
+
+    private void changeLanguage() {
+
+    }
+
+    private void viewCart() {
+
+    }
+
+    private void showProducts() {
+        HashMap<String, String> products = new HashMap<String, String>();
+        ArrayList<Product> allProds = prodDaoCont.getAllProducts();
+        for(Product p : allProds){
+            products.put(p.getpName(),descDaoCon.getDescriptionByPno(p.getPno()).getdText());
+        }
+
+        for (String k:products.keySet()){
+            System.out.println(k + " : " + products.get(k));
+        }
+
     }
 
 

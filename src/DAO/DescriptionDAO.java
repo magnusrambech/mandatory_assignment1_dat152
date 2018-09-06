@@ -63,18 +63,20 @@ public class DescriptionDAO {
       }
 
       public Description getDescriptionByPno(int pno){
+            Description desc = new Description();
             try{
                   Statement statement = conn.createStatement();
                   ResultSet rs = statement.executeQuery("SELECT * FROM description WHERE pno=" + pno);
-
-                  System.out.println(rs.getString("pName"));
+                  desc.setLangCode(rs.getString("langCode"));
+                  desc.setdText(rs.getString("dText"));
+                  desc.setPno(rs.getInt("pNo"));
 
             }catch (SQLException e){
                   e.printStackTrace();
             }
 
 
-            return new Description();
+            return desc;
       }
 
 }
