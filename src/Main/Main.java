@@ -7,6 +7,7 @@ import DAO.DescriptionDAO;
 import DAO.SQLExecutor;
 import Entities.Description;
 import Entities.Product;
+import Store.Store;
 
 import java.io.FileNotFoundException;
 import java.sql.*;
@@ -29,16 +30,12 @@ public class Main {
         SQLExecutor readSql = new SQLExecutor(fileToRead, connection);
 
 
-        ProductsDAOController prodDaoCont = new ProductsDAOController();
-        ArrayList<Product> allProducts = prodDaoCont.getAllProducts();
+        //Starts store
+        Store store = new Store(connection);
+        store.init();
 
 
-        DescriptionDAOController descDaoCont = new DescriptionDAOController();
-        ArrayList<Description> allDesc = descDaoCont.getAllDescriptions();
 
-
-        printProducts(allProducts);
-        printDescs(allDesc);
 
 
 
@@ -47,15 +44,5 @@ public class Main {
 
     }
 
-    private static void printDescs(ArrayList<Description> e) {
-            for(Description d: e){
-                System.out.println(d.getdText());
-            }
-    }
 
-    private static void printProducts(ArrayList<Product> e) {
-        for(Product p : e){
-            System.out.println(p.getpName());
-        }
-    }
 }
