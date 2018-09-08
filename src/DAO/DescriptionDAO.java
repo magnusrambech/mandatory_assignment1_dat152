@@ -48,6 +48,8 @@ public class DescriptionDAO {
             return null;
       }
 
+
+      //SQL
       public void addDescription(Integer pno, String langCode, String dText) {
             Description newDescription;
             newDescription = new Description(pno, langCode, dText);
