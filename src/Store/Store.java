@@ -21,7 +21,7 @@ public class Store {
 
     public Store(Connection conn){
         this.conn = conn;
-        selectedLocale = locales[0];
+        selectedLocale = locales[0]; // this should be set based on http header / cookie
         open = true;
         prodDaoCont = new ProductsDAOController();
         descDaoCon = new DescriptionDAOController();
