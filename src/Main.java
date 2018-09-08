@@ -23,12 +23,7 @@ public class Main {
 
 
         //Stenger tilkobling mot databasen når programmet lukkes
-        System.out.println("dette er en test for git");
-        System.out.println("MAgnuS");
-        System.out.println("TORD");
-        System.out.println("Test");
-        System.out.println("test3");
-        System.out.println("TEST2");
+
         connection.close();
 
     }
