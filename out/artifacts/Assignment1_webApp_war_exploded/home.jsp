@@ -11,12 +11,14 @@
     <title>Home</title>
 </head>
 <body>
-
+<jsp:include page="language.jsp"></jsp:include>
 <!-- Jeg tror det er her vi skal sette cookie og hente inn http header -->
-<h1>Press to Enter store</h1>
-    <form action="/home" method="post">
-        <input type="submit" value="enter">
-    </form>
-<jsp:include page="products.jsp"></jsp:include>
+<h1>Fruitshop</h1>
+<img src="images/logo.png" style="height: 500px">
+
+    <p>
+        <a href="products.jsp">Produkter</a>
+    </p>
+
 </body>
 </html>
