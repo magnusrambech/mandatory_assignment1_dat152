@@ -15,9 +15,21 @@
 <h1>Products</h1>
 <!-- Jeg tror det er her vi skal sette cookie og hente inn http header -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a href="/GetProducts">TEST</a>
 <p><a href="home.jsp">Hjem</a> <a href="cart.jsp">Handlevogn</a></p>
-
 
 </body>
 </html>

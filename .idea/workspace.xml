@@ -7,44 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f96bbd08-314a-4c81-8da5-3d0fe68cca43" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assignment1_webApp.iml" afterPath="$PROJECT_DIR$/Assignment1_webApp.iml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Controllers/DescriptionDAOController.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Controllers/DescriptionDAOController.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Controllers/ProductsDAOController.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Controllers/ProductsDAOController.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/ConnectionDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/ConnectionDAO.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/DescriptionDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/DescriptionDAO.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/ProductDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/ProductDAO.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/SQLExecutor.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/SQLExecutor.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Entities/Cart.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Entities/Cart.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Entities/Description.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Entities/Description.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Entities/Product.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Entities/Product.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Interfaces/IConnectionDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Interfaces/IConnectionDAO.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Main/Main.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Main/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Servlets/CartServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Servlets/CartServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Servlets/HomeServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Servlets/HomeServlet.class" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Servlets/ProductServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Servlets/ProductServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Store/Store.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Store/Store.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/cart.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/cart.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/home.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/home.jsp" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/products.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/products.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Controllers/DescriptionDAOController.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Controllers/DescriptionDAOController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Controllers/ProductsDAOController.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Controllers/ProductsDAOController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/DAO/ConnectionDAO.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/DAO/ConnectionDAO.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/DAO/DescriptionDAO.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/DAO/DescriptionDAO.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/DAO/ProductDAO.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/DAO/ProductDAO.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/DAO/SQLExecutor.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/DAO/SQLExecutor.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Entities/Cart.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Entities/Cart.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Entities/Description.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Entities/Description.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Entities/Product.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Entities/Product.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Interfaces/IConnectionDAO.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Interfaces/IConnectionDAO.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Main/Main.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Main/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Servlets/CartServlet.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Servlets/CartServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Servlets/HomeServlet.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Servlets/HomeServlet.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Servlets/ProductServlet.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Servlets/ProductServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Store/Store.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Store/Store.class" />
-      <change beforePath="$PROJECT_DIR$/src/Servlets/ProductServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/ProductServlet.java" />
-      <change beforePath="$PROJECT_DIR$/web/home.jsp" afterPath="$PROJECT_DIR$/web/home.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/language.jsp" afterPath="$PROJECT_DIR$/web/language.jsp" />
       <change beforePath="$PROJECT_DIR$/web/products.jsp" afterPath="$PROJECT_DIR$/web/products.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -89,23 +56,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/home.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-                  <folding>
-                    <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="ProductServlet.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Servlets/ProductServlet.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="564">
-                  <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+                <state relative-caret-position="530">
+                  <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#730#731#0" expanded="true" />
@@ -148,18 +103,28 @@
           <file leaf-file-name="language.jsp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/language.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="products.jsp" pinned="false" current-in-tab="true">
+          <file leaf-file-name="products.jsp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/products.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+                <state relative-caret-position="272">
+                  <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LanguageServlet.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Servlets/LanguageServlet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -182,8 +147,8 @@
           <file leaf-file-name="Assignment1_webApp.iml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assignment1_webApp.iml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -224,12 +189,13 @@
         <option value="$PROJECT_DIR$/src/DAO/DescriptionDAO.java" />
         <option value="$PROJECT_DIR$/src/DAO/ProductDAO.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/language.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/cart.jsp" />
         <option value="$PROJECT_DIR$/web/cart.jsp" />
         <option value="$PROJECT_DIR$/web/home.jsp" />
         <option value="$PROJECT_DIR$/src/Servlets/ProductServlet.java" />
         <option value="$PROJECT_DIR$/web/products.jsp" />
+        <option value="$PROJECT_DIR$/web/language.jsp" />
+        <option value="$PROJECT_DIR$/src/Servlets/LanguageServlet.java" />
       </list>
     </option>
   </component>
@@ -602,12 +568,12 @@
       <workItem from="1536153687419" duration="5125000" />
       <workItem from="1536417205260" duration="1484000" />
       <workItem from="1536424110775" duration="4783000" />
-      <workItem from="1536443829698" duration="5161000" />
+      <workItem from="1536443829698" duration="6016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19024000" />
+    <option name="totallyTimeSpent" value="19879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2513" height="1456" extended-state="6" />
@@ -623,13 +589,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12174609" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20104125" sideWeight="0.49611542" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20104125" sideWeight="0.50388455" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -658,14 +624,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Controllers/ProductsDAOController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/DescriptionDAOController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -920,14 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment1_webApp.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Store/Store.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1030,18 +980,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/language.jsp">
+    <entry file="file://$PROJECT_DIR$/Assignment1_webApp.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+        <state relative-caret-position="68">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Servlets/ProductServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="530">
+          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
@@ -1052,8 +1002,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/products.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/language.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/LanguageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
           <folding />
         </state>
       </provider>
