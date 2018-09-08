@@ -20,8 +20,10 @@ public class ConnectionDAO implements IConnectionDAO {
      * @throws FileNotFoundException
      * @throws SQLException
      */
-    public ConnectionDAO(String dbname) throws FileNotFoundException, SQLException {
+    public ConnectionDAO(String dbname) throws FileNotFoundException, SQLException, ClassNotFoundException {
         try {
+
+            Class.forName("org.sqlite.JDBC");
             String url = "jdbc:sqlite:" + dbname;
             conn = DriverManager.getConnection(url);
             System.out.println("Connection established!");

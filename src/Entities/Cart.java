@@ -1,29 +1,33 @@
-
 package Entities;
 
+import Controllers.DescriptionDAOController;
+import Controllers.ProductsDAOController;
+
+import java.util.HashMap;
+
 public class Cart {
-      private String langCode;
-      private Integer pno;
 
-      public Cart(String langCode, Integer pno) {
-            this.langCode = langCode;
-            this.pno = pno;
+      private HashMap<Integer, Integer> cart;
+
+
+      public Cart() {
+            this.cart = new HashMap<>();
       }
 
-      public String getLangCode() {
-            return langCode;
+      public void addToCart(Integer pNo){
+            if(cart.containsKey(pNo)){
+                  cart.put(pNo, cart.get(pNo) + 1);
+            } else {
+                  cart.put(pNo, 1);
+            }
       }
 
-      public void setLangCode(String langCode) {
-            this.langCode = langCode;
+      public void clear() {
+            cart.clear();
       }
 
-      public Integer getPno() {
-            return pno;
-      }
-
-      public void setPno(Integer pno) {
-            this.pno = pno;
+      public HashMap<Integer, Integer> getCart () {
+            return this.cart;
       }
 }
 

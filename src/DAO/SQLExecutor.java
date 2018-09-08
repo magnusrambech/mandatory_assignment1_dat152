@@ -16,9 +16,12 @@ public class SQLExecutor {
     InputStream in = null;
 
     public SQLExecutor(String fileName, Connection conn) throws FileNotFoundException, SQLException {
+        System.out.println("hei");
         this.file = new File(fileName);
         this.conn = conn;
+
         in = new FileInputStream(file);
+        System.out.println(file);
         createDBfromFile();
     }
 

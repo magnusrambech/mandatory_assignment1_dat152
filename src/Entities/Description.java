@@ -6,6 +6,10 @@ public class Description {
       private String langCode;
       private String dText;
 
+
+      public Description(){
+
+      }
       public Description(Integer pno, String langCode, String dText) {
 
             this.pno = pno;
