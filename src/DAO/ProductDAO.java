@@ -37,7 +37,7 @@ public class ProductDAO {
 
 
 
-      // SQL methods. Working, but decided to hardcode as sqlite caused nothing but trouble
+      // SQL methods. Working, but decided to hardcode as sqlite caused nothing but trouble when working collabrative
       public void addProducts(Integer pno, String pName, Integer priceInEuro, String imageFile){
             Product newProduct;
             newProduct = new Product(pno, pName, priceInEuro, imageFile);

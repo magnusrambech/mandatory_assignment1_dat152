@@ -17,5 +17,6 @@
     <form action="/home" method="post">
         <input type="submit" value="enter">
     </form>
+<jsp:include page="products.jsp"></jsp:include>
 </body>
 </html>

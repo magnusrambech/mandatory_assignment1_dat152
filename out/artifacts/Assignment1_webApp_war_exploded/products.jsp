@@ -11,9 +11,9 @@
     <title>Products</title>
 </head>
 <body>
-
-<!-- Jeg tror det er her vi skal sette cookie og hente inn http header -->
 <h1>Products</h1>
+<!-- Jeg tror det er her vi skal sette cookie og hente inn http header -->
+
 
 </body>
 </html>

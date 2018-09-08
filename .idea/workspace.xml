@@ -7,7 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f96bbd08-314a-4c81-8da5-3d0fe68cca43" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DAO/DescriptionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/DescriptionDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Controllers/DescriptionDAOController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Controllers/DescriptionDAOController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Controllers/ProductsDAOController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Controllers/ProductsDAOController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/ConnectionDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/ConnectionDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/DescriptionDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/DescriptionDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/ProductDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Servlets/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Servlets/HomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Store/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Store/Store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/DAO/DescriptionDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/DAO/DescriptionDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/products.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +46,8 @@
           <file leaf-file-name="Store.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Store/Store.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="314">
-                  <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+                <state relative-caret-position="156">
+                  <caret line="104" column="9" lean-forward="true" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
                   <folding>
                     <element signature="method#Store#0;class#Store#0" />
                   </folding>
@@ -80,20 +93,38 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Description.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Entities/Description.java">
+          <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/home.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="67" />
+                <state relative-caret-position="207">
+                  <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ProductDAO.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="products.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/products.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="228">
+                  <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ProductDAO.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/DAO/ProductDAO.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+                <state relative-caret-position="200">
+                  <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
                   <folding>
                     <element signature="method#getAllProductsMock#0;class#ProductDAO#0" />
                     <element signature="e#392#401#0" expanded="true" />
@@ -102,36 +133,6 @@
                     <element signature="method#getAllProducts#0;class#ProductDAO#0" />
                     <element signature="method#getProductByPno#0;class#ProductDAO#0" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Entities/Product.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="12" column="85" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="85" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="HomeServlet.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Servlets/HomeServlet.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="271">
-                  <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SQLExecutor.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/DAO/SQLExecutor.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="186">
-                  <caret line="72" selection-start-line="72" selection-end-line="72" />
                 </state>
               </provider>
             </entry>
@@ -171,19 +172,19 @@
         <option value="$PROJECT_DIR$/web/cart.jsp" />
         <option value="$PROJECT_DIR$/src/Servlets/ProductServlet.java" />
         <option value="$PROJECT_DIR$/src/Servlets/CartServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/home.jsp" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/web/products.jsp" />
         <option value="$PROJECT_DIR$/src/DAO/SQLExecutor.java" />
         <option value="$PROJECT_DIR$/src/DAO/ConnectionDAO.java" />
         <option value="$PROJECT_DIR$/src/Servlets/HomeServlet.java" />
-        <option value="$PROJECT_DIR$/src/DAO/ProductDAO.java" />
         <option value="$PROJECT_DIR$/src/Main/Main.java" />
         <option value="$PROJECT_DIR$/src/Store/Store.java" />
         <option value="$PROJECT_DIR$/src/Controllers/ProductsDAOController.java" />
         <option value="$PROJECT_DIR$/src/Controllers/DescriptionDAOController.java" />
         <option value="$PROJECT_DIR$/src/DAO/DescriptionDAO.java" />
+        <option value="$PROJECT_DIR$/src/DAO/ProductDAO.java" />
+        <option value="$PROJECT_DIR$/web/products.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/home.jsp" />
       </list>
     </option>
   </component>
@@ -272,6 +273,12 @@
             </path>
             <path>
               <item name="mandatory_assignment1_dat152" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mandatory_assignment1_dat152" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mandatory_assignment1_dat152" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -307,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Tomcat Server.Store">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.Main" />
       <module name="Assignment1_webApp" />
@@ -519,12 +526,12 @@
       <updated>1536153680455</updated>
       <workItem from="1536153687419" duration="5125000" />
       <workItem from="1536417205260" duration="1484000" />
-      <workItem from="1536424110775" duration="2598000" />
+      <workItem from="1536424110775" duration="4783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11678000" />
+    <option name="totallyTimeSpent" value="13863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1202" height="733" extended-state="6" />
@@ -549,9 +556,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49915966" visible="true" weight="0.19614148" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49915966" weight="0.4742765" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27058825" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1672269" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -767,27 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/products.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DAO/ConnectionDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -865,16 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Store/Store.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding>
-            <element signature="method#Store#0;class#Store#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/ProductsDAOController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -884,8 +860,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DAO/ProductDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="200">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="method#getAllProductsMock#0;class#ProductDAO#0" />
             <element signature="e#392#401#0" expanded="true" />
@@ -894,6 +870,42 @@
             <element signature="method#getAllProducts#0;class#ProductDAO#0" />
             <element signature="method#getProductByPno#0;class#ProductDAO#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Store/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="104" column="9" lean-forward="true" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+          <folding>
+            <element signature="method#Store#0;class#Store#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Globalisering - web/Globalisering - web/WebContent/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
         </state>
       </provider>
     </entry>

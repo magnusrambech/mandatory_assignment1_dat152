@@ -35,6 +35,7 @@
     <servlet-mapping>
         <servlet-name>ProductServlet</servlet-name>
         <url-pattern>/products</url-pattern>
+
     </servlet-mapping>
 
 </web-app>
