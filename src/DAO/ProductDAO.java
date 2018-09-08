@@ -12,8 +12,32 @@ public class ProductDAO {
             this.conn = conn;
       }
 
+      public ProductDAO(){}
+
+      //Mock methods
+      public ArrayList<Product> getAllProductsMock(){
+            ArrayList<Product> temp = new ArrayList<Product>();
+            Product OJ = new Product(1, "Orange Juice", 3, "juice.jpg");
+            Product Avac = new Product(2,"Avocado",2,"Avocado.jpg");
+            temp.add(OJ);
+            temp.add(Avac);
+
+            return temp;
+      }
+
+      public Product getProductByPnoMock(int pNo){
+            ArrayList<Product> all = this.getAllProductsMock();
+            for(Product p: all){
+                  if(p.getPno() == pNo){
+                        return p;
+                  }
+            }
+            return null;
+      }
 
 
+
+      // SQL methods. Working, but decided to hardcode as sqlite caused nothing but trouble
       public void addProducts(Integer pno, String pName, Integer priceInEuro, String imageFile){
             Product newProduct;
             newProduct = new Product(pno, pName, priceInEuro, imageFile);

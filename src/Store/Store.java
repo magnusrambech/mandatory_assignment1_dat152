@@ -27,6 +27,13 @@ public class Store {
         descDaoCon = new DescriptionDAOController();
         cart = new Cart();
     }
+    public Store(){
+        selectedLocale = locales[0]; // this should be set based on http header / cookie
+        open = true;
+        prodDaoCont = new ProductsDAOController();
+        descDaoCon = new DescriptionDAOController();
+        cart = new Cart();
+    }
 
 
     public void init(){

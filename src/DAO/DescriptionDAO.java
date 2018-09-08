@@ -13,8 +13,40 @@ public class DescriptionDAO {
       public DescriptionDAO(Connection conn){
             this.conn = conn;
       }
+      public DescriptionDAO(){
+
+      }
+
+//Integer pno, String langCode, String dText
+      public ArrayList<Description> getAllDescriptionsMock(){
+            ArrayList<Description> temp = new ArrayList<Description>();
+            Description orangeJuiceEnUs = new Description(1,"en_US","OJ - not from concentrate");
+            Description orangeJuiceNbNo = new Description(1, "nb_NO", "Appelsinjuice - ikke fra konsentrat");
+            Description orangeJuiceNlNl = new Description(1, "nl_NL", "Sinaasappelsap - niet van concentraat");
+            Description avocadoNbNo = new Description(2, "nb_NO", "Avokado fra Peru");
+            Description avocadoEnUs = new Description(2,"en_US","Avocado from Peru");
+            Description avocadoNlNl = new Description(2,"nl_NL","Avocado uit Peru");
 
 
+            temp.add(orangeJuiceEnUs);
+            temp.add(orangeJuiceNbNo);
+            temp.add(orangeJuiceNlNl);
+            temp.add(avocadoEnUs);
+            temp.add(avocadoNbNo);
+            temp.add(avocadoNlNl);
+
+            return temp;
+      }
+
+      public Description getDescriptionByPnoMock(int pNo, String langCode){
+            ArrayList<Description> all = this.getAllDescriptionsMock();
+            for(Description d:all){
+                  if(d.getPno()==pNo && d.getLangCode().equals(langCode)){
+                        return d;
+                  }
+            }
+            return null;
+      }
 
       public void addDescription(Integer pno, String langCode, String dText) {
             Description newDescription;

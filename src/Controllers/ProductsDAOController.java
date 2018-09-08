@@ -11,13 +11,13 @@ import Entities.Product;
 import Main.Main;
 public class ProductsDAOController {
 
-    public Connection conn = Main.connection;
-    ProductDAO prodDao = new ProductDAO(conn);
+    // public Connection conn = Main.connection;
+    ProductDAO prodDao = new ProductDAO();
 
 
     public ArrayList<Product> getAllProducts(){
-       return prodDao.getAllProducts();
+       return prodDao.getAllProductsMock();
     }
 
-    public Product getProductByPno(Integer pNo) { return prodDao.getProductByPno(pNo);}
+    public Product getProductByPno(Integer pNo) { return prodDao.getProductByPnoMock(pNo);}
 }

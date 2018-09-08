@@ -22,7 +22,7 @@ public class Main {
     public static Connection connection;
 
     public static void main(String[] args) throws FileNotFoundException, SQLException, ClassNotFoundException {
-    init();
+                 init();
 
 
     }
@@ -38,8 +38,8 @@ public class Main {
         // SQLExecutor readSql = new SQLExecutor(fileToRead, connection);
 
         //Starts store
-        Store store = new Store(connection);
-        store.init();
+         Store store = new Store();
+         store.init();
 
 
 
@@ -47,7 +47,7 @@ public class Main {
 
 
         //Stenger tilkobling mot databasen når programmet lukkes
-        connection.close();
+        //connection.close();
     }
 
 

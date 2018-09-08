@@ -12,15 +12,15 @@ import java.util.ArrayList;
 
 public class DescriptionDAOController {
     public Connection conn  = Main.connection;
-    DescriptionDAO descDao = new DescriptionDAO(conn);
+    DescriptionDAO descDao = new DescriptionDAO();
 
 
     public ArrayList<Description> getAllDescriptions(){
-        return descDao.getAllDescriptions();
+        return descDao.getAllDescriptionsMock();
     }
 
     public Description getDescriptionByPno(int pno, String langCode){
-        return descDao.getDescriptionByPno(pno,langCode);
+        return descDao.getDescriptionByPnoMock(pno,langCode);
     }
 
 }
