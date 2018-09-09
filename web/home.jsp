@@ -17,7 +17,7 @@
 <img src="images/logo.png" style="height: 500px">
 
     <p>
-        <a href="products.jsp">Produkter</a>
+        <a href="/products.jsp">Produkter</a>
     </p>
 
 </body>

@@ -19,11 +19,7 @@ public class ProductServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
 
-    /**
-     * Creates a new SetLanguageServlet.
-     *
-     * @see HttpServlet#HttpServlet()
-     */
+
     public ProductServlet() {
         super();
     }
@@ -38,6 +34,7 @@ public class ProductServlet extends HttpServlet {
         String json = new Gson().toJson(products);
         String html = "<table style='border: 1px solid black'>";
 
+
         for(Product p : products){
             html += "<tr>";
              html += "<th>" + p.getpName() + "</th>";
@@ -48,6 +45,8 @@ public class ProductServlet extends HttpServlet {
         }
         html += "</table>";
 
+
+        response.getWriter().write(html);
 
     }
 

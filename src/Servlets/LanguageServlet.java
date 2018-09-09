@@ -16,11 +16,6 @@ import java.io.IOException;
 public class LanguageServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
-    /**
-     * Creates a new SetLanguageServlet.
-     *
-     * @see HttpServlet#HttpServlet()
-     */
     public LanguageServlet() {
         super();
     }
@@ -30,7 +25,7 @@ public class LanguageServlet extends HttpServlet {
             throws ServletException, IOException {
         String locale = request.getParameter("locale");
         if (locale != null) {
-            //Config.set(request.getSession(), Config.FMT_LOCALE, locale);
+            Config.set(request.getSession(), Config.FMT_LOCALE, locale);
 
             Cookie localeCookie = new Cookie("locale", locale);
             localeCookie.setMaxAge(365 * 24 * 60 * 60); // One year in seconds
