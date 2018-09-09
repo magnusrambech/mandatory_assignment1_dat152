@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 
-@WebServlet("/GetProducts")
+@WebServlet("/products")
 public class ProductServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
@@ -28,10 +28,28 @@ public class ProductServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-
         ProductsDAOController productsDAOController = new ProductsDAOController();
         DescriptionDAOController descriptionDAOController = new DescriptionDAOController();
         ArrayList<Product> products = productsDAOController.getAllProducts();
+
+
+        Cookie[] cookies = request.getCookies();
+        Cookie localeCookie = null;
+        boolean foundLocaleCookie = false;
+        for (int i = 0; i < cookies.length ; i++) {
+            if(cookies[i].getName().equals("locale")){
+                foundLocaleCookie = true;
+                localeCookie = cookies[i];
+            }
+        }
+        if(localeCookie == null){
+           localeCookie = new Cookie("locale", "nb_NO");
+        }
+        response.addCookie(localeCookie);
+
+        for(Product p : products){
+            p.setDesc(descriptionDAOController.getDescriptionByPno(p.getPno(),localeCookie.getValue()));
+        }
 
         request.setAttribute("products",products);
         String url = "/products.jsp";

@@ -28,20 +28,6 @@ public class HomeServlet extends HttpServlet {
     //
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        //definerer hva type informasjon som skal sendes ut til klient
-        response.setContentType("text/html");
-
-        //returnerer en printWriter som kan brukes til å skrive direkte inn til klienten
-        PrintWriter out = response.getWriter();
-
-        out.println("<h1>Hello, welcome to my store </h1>");
-        try {
-            Main.init();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
     }
 
     //Server kaller denne metoden for å håndtere alle GET requests

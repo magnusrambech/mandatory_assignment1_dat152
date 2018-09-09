@@ -6,6 +6,7 @@ public class Product {
       private String pName;
       private Integer priceInEuro;
       private  String imageFile;
+      private Description desc;
 
       public Product(){
 
@@ -49,4 +50,12 @@ public class Product {
       public void setImageFile(String imageFile) {
             this.imageFile = imageFile;
       }
+
+      public void setDesc(Description desc) {
+            this.desc = desc;
+        }
+
+        public Description getDesc() {
+            return desc;
+        }
 }

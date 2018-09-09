@@ -1,3 +1,4 @@
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%--
   Created by IntelliJ IDEA.
   User: aryan
@@ -13,11 +14,19 @@
 <body>
 <jsp:include page="language.jsp"></jsp:include>
 <!-- Jeg tror det er her vi skal sette cookie og hente inn http header -->
-<h1>Fruitshop</h1>
+<h1>
+    <fmt:bundle basename="Messages">
+        <fmt:message key="greeting"/>
+    </fmt:bundle>
+</h1>
 <img src="images/logo.png" style="height: 500px">
 
     <p>
-        <a href="/GetProducts">Produkter</a>
+        <a href="/products">
+            <fmt:bundle basename="Messages">
+                <fmt:message key="products"/>
+            </fmt:bundle>
+        </a>
     </p>
 
 </body>

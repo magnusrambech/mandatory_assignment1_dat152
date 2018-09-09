@@ -23,10 +23,11 @@
 <!-- Jeg tror det er her vi skal sette cookie og hente inn http header -->
 <c:forEach items="${products}" var="item">
 
-    <div>
+    <div style="border: 1px solid black; width: 20%">
         <h1>${item.getpName()}</h1>
         <h2>${item.getPriceInEuro()} £</h2>
-        <img src='images/${item.getImageFile()}'>
+        <p>${item.getDesc().getdText()}</p>
+        <img src='images/${item.getImageFile()}' style="width: 200px">
     </div>
 
 </c:forEach>
