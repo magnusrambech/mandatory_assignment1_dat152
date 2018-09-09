@@ -51,6 +51,7 @@
     </tr>
 <c:set var="total" value="${0}"/>
 
+
     <c:forEach items="${cart}" var="item">
         <c:set var="total" value="${total + item.getTotal()}"/>
         <tr>
@@ -58,13 +59,13 @@
             <td>
                 <custom:shortText maxchars="10" fullText='${item.getProduct().getDesc().getdText()}'/>
             </td>
-            <td>${item.getProduct().getPriceInEuro()}</td>
+            <td>${item.getProduct().getPriceInEuro()} ${item.getProduct().getDesc().getSymbol()}</td>
             <td> ${item.getQuantity()}</td>
-            <td> ${item.getTotal()}</td>
+            <td> ${item.getTotal()} ${item.getProduct().getDesc().getSymbol()}</td>
         </tr>
     </c:forEach>
 </table>
-<p>Sum: ${total}</p>
+<p>Sum: ${total} ${item.getProduct().getDesc().getSymbol()}</p>
 <a href="/cart?action=clear">EMPTY CART</a>
 <p><a href="/">Hjem </a> <a href="/products"> Products</a></p>
 

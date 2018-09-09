@@ -34,11 +34,6 @@
             </fmt:bundle>
         </a>
     </div>
-
-
-
-
-
 </c:forEach>
 
 

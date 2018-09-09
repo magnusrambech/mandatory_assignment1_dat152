@@ -4,6 +4,7 @@ import Controllers.CartDAOController;
 import Controllers.DescriptionDAOController;
 import Controllers.ProductsDAOController;
 import Entities.CartLine;
+import Entities.CurrencyConverter;
 import Entities.Product;
 
 import javax.servlet.RequestDispatcher;
@@ -25,6 +26,7 @@ public class CartServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String action = request.getParameter("action");
+
         if(action != null){
             if (action.equals("add")) {
                 int pNo = Integer.parseInt(request.getParameter("pNo"));
@@ -49,9 +51,13 @@ public class CartServlet extends HttpServlet {
                         prod.setDesc(descriptionDAOController.getDescriptionByPno(prod.getPno(),locale.getValue()));
                     }
 
+                    CurrencyConverter converter = new CurrencyConverter(locale.getValue());
+                    prod.setPriceInEuro(converter.Convert(prod.getPriceInEuro()));
+
                     CartLine line = new CartLine(prod, cart.get(key));
                     lines.add(line);
                 }
+
                 String referrer = request.getHeader("referer");
                 response.sendRedirect(referrer);
 
@@ -82,6 +88,9 @@ public class CartServlet extends HttpServlet {
                 else {
                     prod.setDesc(descriptionDAOController.getDescriptionByPno(prod.getPno(),locale.getValue()));
                 }
+
+                CurrencyConverter converter = new CurrencyConverter(locale.getValue());
+                prod.setPriceInEuro(converter.Convert(prod.getPriceInEuro()));
 
                 CartLine line = new CartLine(prod, cart.get(key));
                 lines.add(line);
