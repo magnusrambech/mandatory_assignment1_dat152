@@ -6,8 +6,10 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@page import="CustomTags.ShortTextTag" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@taglib uri="custom-tags" prefix="custom" %>
 
 <html>
 <head>
@@ -16,7 +18,7 @@
         table {
             font-family: arial, sans-serif;
             border-collapse: collapse;
-            width: 100%;
+            width: 30%;
         }
 
         td, th {
@@ -53,7 +55,9 @@
         <c:set var="total" value="${total + item.getTotal()}"/>
         <tr>
             <td>${item.getProduct().getpName()}</td>
-            <td>${item.getProduct().getDesc().getdText()}</td>
+            <td>
+                <custom:shortText maxchars="10" fullText='${item.getProduct().getDesc().getdText()}'/>
+            </td>
             <td>${item.getProduct().getPriceInEuro()}</td>
             <td> ${item.getQuantity()}</td>
             <td> ${item.getTotal()}</td>
@@ -63,5 +67,8 @@
 <p>Sum: ${total}</p>
 <a href="/cart?action=clear">EMPTY CART</a>
 <p><a href="/">Hjem </a> <a href="/products"> Products</a></p>
+
+
+<jsp:include page="footer.jsp"/>
 </body>
 </html>

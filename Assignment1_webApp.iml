@@ -22,5 +22,6 @@
     <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
     <orderEntry type="library" name="com.google.code.gson:gson:2.8.5" level="project" />
     <orderEntry type="library" name="jstl:jstl:1.2" level="project" />
+    <orderEntry type="library" name="com.github.chaosfirebolt.converter:roman-numeral-converter:1.0.0" level="project" />
   </component>
 </module>

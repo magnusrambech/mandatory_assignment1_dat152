@@ -1,4 +1,6 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+
 <%--
   Created by IntelliJ IDEA.
   User: aryan
@@ -28,6 +30,7 @@
             </fmt:bundle>
         </a>
     </p>
+<jsp:include page="footer.jsp"/>
 
 </body>
 </html>

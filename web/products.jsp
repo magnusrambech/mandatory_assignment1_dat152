@@ -27,8 +27,12 @@
         <h1>${item.getpName()}</h1>
         <h2>${item.getPriceInEuro()} ${item.getDesc().getSymbol()} </h2>
         <p>${item.getDesc().getdText()}</p>
-        <img src='images/${item.getImageFile()}' style="width: 200px">
-        <a href='/cart?action=add&pNo=${item.getPno()}'> LEGG TIL I HANDLEKURV</a>
+        <img src='images/${item.getImageFile()}' style="width: 200px"><br>
+        <a href='/cart?action=add&pNo=${item.getPno()}'>
+            <fmt:bundle basename="Messages">
+                <fmt:message key="addToCart" />
+            </fmt:bundle>
+        </a>
     </div>
 
 
@@ -55,5 +59,7 @@
         <fmt:message key="cart"/>
     </a></p>
 </fmt:bundle>
+
+<jsp:include page="footer.jsp"/>
 </body>
 </html>
