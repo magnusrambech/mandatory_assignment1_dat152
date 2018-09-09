@@ -20,15 +20,18 @@
 <jsp:include page="language.jsp"></jsp:include>
 <h1>
     <fmt:bundle basename="Messages"><fmt:message key="products"/></fmt:bundle></h1>
+<<<<<<< HEAD
 <!-- Jeg tror det er her vi skal sette cookie og hente inn http header -->
 
 
+=======
+>>>>>>> 25e6b2e6bfbfa9aa5ebe794f593c1970de83336b
 
 <c:forEach items="${products}" var="item">
 
     <div style="border: 1px solid black; width: 20%">
         <h1>${item.getpName()}</h1>
-        <h2>${item.getPriceInEuro()} £</h2>
+        <h2>${item.getPriceInEuro()} ${item.getDesc().getSymbol()} </h2>
         <p>${item.getDesc().getdText()}</p>
         <img src='images/${item.getImageFile()}' style="width: 200px">
         <a href='/cart?action=add&pNo=${item.getPno()}'> LEGG TIL I HANDLEKURV</a>

@@ -5,16 +5,18 @@ public class Description {
       private Integer pno;
       private String langCode;
       private String dText;
+      private String symbol;
 
 
       public Description(){
 
       }
-      public Description(Integer pno, String langCode, String dText) {
+      public Description(Integer pno, String langCode, String dText, String symbol) {
 
             this.pno = pno;
             this.langCode = langCode;
             this.dText = dText;
+            this.symbol = symbol;
       }
 
       public Integer getPno() {
@@ -41,4 +43,11 @@ public class Description {
             this.dText = dText;
       }
 
+      public String getSymbol() {
+            return symbol;
+      }
+
+      public void setSymbol(String symbol) {
+            this.symbol = symbol;
+      }
 }

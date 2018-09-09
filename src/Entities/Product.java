@@ -4,14 +4,14 @@ package Entities;
 public class Product {
       private Integer pno;
       private String pName;
-      private Integer priceInEuro;
+      private Double priceInEuro;
       private  String imageFile;
       private Description desc;
 
       public Product(){
 
       }
-      public Product(Integer pno, String pName, Integer priceInEuro, String imageFile) {
+      public Product(Integer pno, String pName, double priceInEuro, String imageFile) {
             this.pno = pno;
             this.pName = pName;
             this.priceInEuro = priceInEuro;
@@ -35,11 +35,11 @@ public class Product {
             this.pName = pName;
       }
 
-      public Integer getPriceInEuro() {
+      public double getPriceInEuro() {
             return priceInEuro;
       }
 
-      public void setPriceInEuro(Integer priceInEuro) {
+      public void setPriceInEuro(double priceInEuro) {
             this.priceInEuro = priceInEuro;
       }
 

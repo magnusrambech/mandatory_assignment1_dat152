@@ -8,22 +8,25 @@
   <component name="ChangeListManager">
     <list default="true" id="f96bbd08-314a-4c81-8da5-3d0fe68cca43" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Controllers/DescriptionDAOController.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Controllers/DescriptionDAOController.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Entities/Cart.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Entities/Cart.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Messages_no.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Servlets/CartServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Servlets/CartServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/cart.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/cart.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Controllers/DescriptionDAOController.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Controllers/DescriptionDAOController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Entities/Cart.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Entities/Cart.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Messages_no.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Servlets/CartServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/DescriptionDAOController.java" afterPath="$PROJECT_DIR$/src/Controllers/DescriptionDAOController.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Cart.java" afterPath="$PROJECT_DIR$/src/Entities/Cart.java" />
-      <change beforePath="$PROJECT_DIR$/src/Messages_no.properties" afterPath="$PROJECT_DIR$/src/Messages_nb.properties" />
-      <change beforePath="$PROJECT_DIR$/src/Servlets/CartServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/CartServlet.java" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/web/cart.jsp" afterPath="$PROJECT_DIR$/web/cart.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/DescriptionDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/DescriptionDAO.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/ProductDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/DAO/ProductDAO.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Entities/Description.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Entities/Description.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Entities/Product.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Entities/Product.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Servlets/ProductServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Servlets/ProductServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Store/Store.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Store/Store.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/language.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/language.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/products.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/products.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/DAO/DescriptionDAO.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/DAO/DescriptionDAO.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/DAO/ProductDAO.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/DAO/ProductDAO.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Entities/Description.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Entities/Description.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Entities/Product.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Entities/Product.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Servlets/ProductServlet.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Servlets/ProductServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Store/Store.class" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Store/Store.class" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/DescriptionDAO.java" afterPath="$PROJECT_DIR$/src/DAO/DescriptionDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/ProductDAO.java" afterPath="$PROJECT_DIR$/src/DAO/ProductDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Description.java" afterPath="$PROJECT_DIR$/src/Entities/Description.java" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Product.java" afterPath="$PROJECT_DIR$/src/Entities/Product.java" />
+      <change beforePath="$PROJECT_DIR$/src/Servlets/ProductServlet.java" afterPath="$PROJECT_DIR$/src/Servlets/ProductServlet.java" />
       <change beforePath="$PROJECT_DIR$/web/language.jsp" afterPath="$PROJECT_DIR$/web/language.jsp" />
       <change beforePath="$PROJECT_DIR$/web/products.jsp" afterPath="$PROJECT_DIR$/web/products.jsp" />
     </list>
@@ -42,33 +45,29 @@
           <file leaf-file-name="products.jsp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/products.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
+                <state relative-caret-position="374">
+                  <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Cart.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Entities/Cart.java">
+          <file leaf-file-name="DescriptionDAO.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/DAO/DescriptionDAO.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+                <state relative-caret-position="445">
+                  <caret line="105" column="35" lean-forward="true" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
                   <folding>
-                    <element signature="e#223#224#0" expanded="true" />
-                    <element signature="e#288#289#0" expanded="true" />
-                    <element signature="e#540#541#0" expanded="true" />
-                    <element signature="e#574#575#0" expanded="true" />
-                    <element signature="e#627#628#0" expanded="true" />
-                    <element signature="e#665#666#0" expanded="true" />
+                    <element signature="method#addDescription#0;class#DescriptionDAO#0" expanded="false" />
+                    <marker date="1536496781013" expanded="true" signature="1976:2037" ph="INSERT INTO description... " />
+                    <marker date="1536496781013" expanded="true" signature="2897:2922" ph="SELECT * FRO... description" />
+                    <marker date="1536496781013" expanded="true" signature="3686:3767" ph="SELECT * FRO... description" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cart.jsp" pinned="false" current-in-tab="true">
+          <file leaf-file-name="cart.jsp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/cart.jsp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="683">
@@ -83,8 +82,8 @@
           <file leaf-file-name="language.jsp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/language.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -93,8 +92,8 @@
           <file leaf-file-name="Description.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Entities/Description.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="28" />
+                <state relative-caret-position="629">
+                  <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -170,7 +169,7 @@
             <entry file="file://$PROJECT_DIR$/src/Servlets/LanguageServlet.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="544">
-                  <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="40" />
+                  <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="40" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -186,7 +185,7 @@
             <entry file="file://$PROJECT_DIR$/src/Entities/CartLine.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="204">
-                  <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                  <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                   <folding>
                     <element signature="e#300#301#0" expanded="true" />
                     <element signature="e#330#331#0" expanded="true" />
@@ -208,15 +207,13 @@
           <file leaf-file-name="Product.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Entities/Product.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="35" />
+                <state relative-caret-position="629">
+                  <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
                   <folding>
-                    <element signature="e#505#506#0" expanded="true" />
-                    <element signature="e#537#538#0" expanded="true" />
-                    <element signature="e#1179#1180#0" expanded="true" />
-                    <element signature="e#1219#1220#0" expanded="true" />
-                    <element signature="e#1259#1260#0" expanded="true" />
-                    <element signature="e#1294#1295#0" expanded="true" />
+                    <element signature="e#1175#1176#0" expanded="true" />
+                    <element signature="e#1215#1216#0" expanded="true" />
+                    <element signature="e#1255#1256#0" expanded="true" />
+                    <element signature="e#1290#1291#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -225,12 +222,10 @@
           <file leaf-file-name="ProductServlet.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Servlets/ProductServlet.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="241">
-                  <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+                <state relative-caret-position="258">
+                  <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#666#667#0" expanded="true" />
-                    <element signature="e#689#690#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -277,7 +272,7 @@
                   <folding>
                     <element signature="method#addProducts#0;class#ProductDAO#0" expanded="false" />
                     <element signature="method#getAllProducts#0;class#ProductDAO#0" expanded="false" />
-                    <element signature="e#1941#1950#0" expanded="true" />
+                    <element signature="e#1944#1953#0" expanded="true" />
                     <element signature="method#getProductByPno#0;class#ProductDAO#0" expanded="false" />
                   </folding>
                 </state>
@@ -332,10 +327,10 @@
         <option value="$PROJECT_DIR$/src/Entities/Cart.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/Entities/CartLine.java" />
-        <option value="$PROJECT_DIR$/web/products.jsp" />
         <option value="$PROJECT_DIR$/src/Servlets/CartServlet.java" />
-        <option value="$PROJECT_DIR$/web/language.jsp" />
         <option value="$PROJECT_DIR$/web/cart.jsp" />
+        <option value="$PROJECT_DIR$/web/language.jsp" />
+        <option value="$PROJECT_DIR$/web/products.jsp" />
       </list>
     </option>
   </component>
@@ -402,6 +397,12 @@
               <item name="mandatory_assignment1_dat152" type="b2602c69:ProjectViewProjectNode" />
               <item name="mandatory_assignment1_dat152" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mandatory_assignment1_dat152" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mandatory_assignment1_dat152" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Entities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -415,12 +416,6 @@
               <item name="mandatory_assignment1_dat152" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Servlets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mandatory_assignment1_dat152" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mandatory_assignment1_dat152" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Resource Bundle 'Messages'" type="a6c14932:ResourceBundleNode" />
             </path>
             <path>
               <item name="mandatory_assignment1_dat152" type="b2602c69:ProjectViewProjectNode" />
@@ -722,12 +717,12 @@
       <workItem from="1536417205260" duration="1484000" />
       <workItem from="1536424110775" duration="4783000" />
       <workItem from="1536443829698" duration="13335000" />
-      <workItem from="1536484447935" duration="11058000" />
+      <workItem from="1536484447935" duration="11219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38256000" />
+    <option name="totallyTimeSpent" value="38417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2513" height="1456" extended-state="6" />
@@ -1022,18 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/DescriptionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-          <folding>
-            <element signature="method#addDescription#0;class#DescriptionDAO#0" expanded="false" />
-            <element signature="method#getAllDescriptions#0;class#DescriptionDAO#0" expanded="false" />
-            <element signature="method#getDescriptionByPno#0;class#DescriptionDAO#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DAO/ProductDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1041,7 +1024,7 @@
           <folding>
             <element signature="method#addProducts#0;class#ProductDAO#0" expanded="false" />
             <element signature="method#getAllProducts#0;class#ProductDAO#0" expanded="false" />
-            <element signature="e#1941#1950#0" expanded="true" />
+            <element signature="e#1944#1953#0" expanded="true" />
             <element signature="method#getProductByPno#0;class#ProductDAO#0" expanded="false" />
           </folding>
         </state>
@@ -1083,8 +1066,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entities/Description.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="629">
+          <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1128,7 +1111,7 @@
     <entry file="file://$PROJECT_DIR$/src/Entities/CartLine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#300#301#0" expanded="true" />
             <element signature="e#330#331#0" expanded="true" />
@@ -1148,12 +1131,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Servlets/ProductServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        <state relative-caret-position="258">
+          <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1161,7 +1142,7 @@
     <entry file="file://$PROJECT_DIR$/src/Servlets/LanguageServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="40" />
+          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1192,33 +1173,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entities/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="35" />
+        <state relative-caret-position="629">
+          <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
           <folding>
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/language.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/products.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1229,6 +1190,35 @@
           <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/language.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/DescriptionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="105" column="35" lean-forward="true" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
+          <folding>
+            <element signature="method#addDescription#0;class#DescriptionDAO#0" expanded="false" />
+            <marker date="1536496781013" expanded="true" signature="1976:2037" ph="INSERT INTO description... " />
+            <marker date="1536496781013" expanded="true" signature="2897:2922" ph="SELECT * FRO... description" />
+            <marker date="1536496781013" expanded="true" signature="3686:3767" ph="SELECT * FRO... description" />
           </folding>
         </state>
       </provider>

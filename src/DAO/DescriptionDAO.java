@@ -20,12 +20,12 @@ public class DescriptionDAO {
 //Integer pno, String langCode, String dText
       public ArrayList<Description> getAllDescriptionsMock(){
             ArrayList<Description> temp = new ArrayList<Description>();
-            Description orangeJuiceEnUs = new Description(1,"en_US","OJ - not from concentrate");
-            Description orangeJuiceNbNo = new Description(1, "nb_NO", "Appelsinjuice - ikke fra konsentrat");
-            Description orangeJuiceNlNl = new Description(1, "nl_NL", "Sinaasappelsap - niet van concentraat");
-            Description avocadoNbNo = new Description(2, "nb_NO", "Avokado fra Peru");
-            Description avocadoEnUs = new Description(2,"en_US","Avocado from Peru");
-            Description avocadoNlNl = new Description(2,"nl_NL","Avocado uit Peru");
+            Description orangeJuiceEnUs = new Description(1,"en_US","OJ - not from concentrate", "$");
+            Description orangeJuiceNbNo = new Description(1, "nb_NO", "Appelsinjuice - ikke fra konsentrat", "NOK");
+            Description orangeJuiceNlNl = new Description(1, "nl_NL", "Sinaasappelsap - niet van concentraat", "€");
+            Description avocadoNbNo = new Description(2, "nb_NO", "Avokado fra Peru", "$");
+            Description avocadoEnUs = new Description(2,"en_US","Avocado from Peru", "NOK");
+            Description avocadoNlNl = new Description(2,"nl_NL","Avocado uit Peru", "€");
 
 
             temp.add(orangeJuiceEnUs);
@@ -50,10 +50,10 @@ public class DescriptionDAO {
 
 
       //SQL
-      public void addDescription(Integer pno, String langCode, String dText) {
+      public void addDescription(Integer pno, String langCode, String dText, String sym) {
             Description newDescription;
-            newDescription = new Description(pno, langCode, dText);
-            String sql = "INSERT INTO description(pno, langCode, dText) VALUES(?,?,?)";
+            newDescription = new Description(pno, langCode, dText, sym);
+            String sql = "INSERT INTO description(pno, langCode, dText) VALUES(?,?,?,?)";
 
 
 
@@ -65,6 +65,7 @@ public class DescriptionDAO {
                   pstmt.setInt(1, newDescription.getPno());
                   pstmt.setString(2, newDescription.getLangCode());
                   pstmt.setString(3, newDescription.getdText());
+                  pstmt.setString(4, newDescription.getSymbol());
                   pstmt.executeUpdate();
                   System.out.println("Description lagt til");
             } catch (SQLException e) {
