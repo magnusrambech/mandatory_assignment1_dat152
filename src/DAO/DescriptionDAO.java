@@ -49,6 +49,7 @@ public class DescriptionDAO {
       }
 
 
+      /*
       //SQL
       public void addDescription(Integer pno, String langCode, String dText, String sym) {
             Description newDescription;
@@ -119,5 +120,6 @@ public class DescriptionDAO {
 
             return desc;
       }
+      */
 
 }
