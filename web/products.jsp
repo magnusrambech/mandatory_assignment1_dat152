@@ -9,7 +9,11 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt" %>
 <html>
 <head>
-    <title>Products</title>
+    <title>
+        <fmt:bundle basename="Messages">
+            <fmt:message key="greeting"/>
+        </fmt:bundle>
+    </title>
 </head>
 <body>
 <jsp:include page="language.jsp"></jsp:include>

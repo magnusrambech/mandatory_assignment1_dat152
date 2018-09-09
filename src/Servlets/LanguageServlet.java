@@ -28,9 +28,8 @@ public class LanguageServlet extends HttpServlet {
             Config.set(request.getSession(), Config.FMT_LOCALE, locale);
 
             Cookie localeCookie = new Cookie("locale", locale);
-            localeCookie.setMaxAge(365 * 24 * 60 * 60); // One year in seconds
+            localeCookie.setMaxAge(30 * 24 * 60 * 60); // One month in seconds,
             response.addCookie(localeCookie);
-            // Cookie with locale sent to client
         }
 
         String referrer = request.getHeader("referer");
