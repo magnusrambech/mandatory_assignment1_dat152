@@ -11,13 +11,14 @@ public class Cart {
 
 
       public Cart() {
-            this.cart = new HashMap<>();
+            this.cart = new HashMap<Integer, Integer>();
       }
 
       public void addToCart(Integer pNo){
             if(cart.containsKey(pNo)){
-                  cart.put(pNo, cart.get(pNo) + 1);
-            } else {
+                  cart.put(pNo, cart.get(pNo)+1);
+            }
+            else {
                   cart.put(pNo, 1);
             }
       }

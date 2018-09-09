@@ -21,6 +21,9 @@
 <h1>
     <fmt:bundle basename="Messages"><fmt:message key="products"/></fmt:bundle></h1>
 <!-- Jeg tror det er her vi skal sette cookie og hente inn http header -->
+
+
+
 <c:forEach items="${products}" var="item">
 
     <div style="border: 1px solid black; width: 20%">
@@ -28,7 +31,12 @@
         <h2>${item.getPriceInEuro()} £</h2>
         <p>${item.getDesc().getdText()}</p>
         <img src='images/${item.getImageFile()}' style="width: 200px">
+        <a href='/cart?action=add&pNo=${item.getPno()}'> LEGG TIL I HANDLEKURV</a>
     </div>
+
+
+
+
 
 </c:forEach>
 
@@ -44,9 +52,9 @@
 
 
 <fmt:bundle basename="Messages">
-    <p><a href="home.jsp">
+    <p><a href="/">
         <fmt:message key="home"/>
-    </a> <a href="cart.jsp">
+    </a> <a href="/cart">
         <fmt:message key="cart"/>
     </a></p>
 </fmt:bundle>

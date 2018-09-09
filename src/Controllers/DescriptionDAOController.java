@@ -12,7 +12,11 @@ import java.util.ArrayList;
 
 public class DescriptionDAOController {
     public Connection conn  = Main.connection;
-    DescriptionDAO descDao = new DescriptionDAO();
+    DescriptionDAO descDao;
+
+    public DescriptionDAOController(){
+      descDao = new DescriptionDAO();
+    }
 
 
     public ArrayList<Description> getAllDescriptions(){

@@ -9,28 +9,4 @@
         <welcome-file>home.jsp</welcome-file>
     </welcome-file-list>
 
-    <!-- beskriver hvilke servlets som skal utplasseres og hvor de er lokalisert -->
-    <servlet>
-        <servlet-name>HomeServlet</servlet-name>
-        <servlet-class>Servlets.HomeServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>CartServlet</servlet-name>
-        <servlet-class>Servlets.CartServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>ProductServlet</servlet-name>
-        <servlet-class>Servlets.ProductServlet</servlet-class>
-    </servlet>
-    
-    <!-- beskriver URL mapping for alle Servlets -->
-    <servlet-mapping>
-        <servlet-name>HomeServlet</servlet-name>
-        <url-pattern>/home</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>CartServlet</servlet-name>
-        <url-pattern>/cart</url-pattern>
-    </servlet-mapping>
-
 </web-app>
