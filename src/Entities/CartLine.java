@@ -3,7 +3,7 @@ package Entities;
 public class CartLine {
     private Product product;
     private int quantity;
-    private float total;
+    private double total;
 
     public CartLine(Product p, int q){
         this.product = p;
@@ -27,7 +27,7 @@ public class CartLine {
         this.quantity = quantity;
     }
 
-    public float getTotal() {
+    public double getTotal() {
         return total;
     }
 

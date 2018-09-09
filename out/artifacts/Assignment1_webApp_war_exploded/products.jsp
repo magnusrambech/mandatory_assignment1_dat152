@@ -20,12 +20,6 @@
 <jsp:include page="language.jsp"></jsp:include>
 <h1>
     <fmt:bundle basename="Messages"><fmt:message key="products"/></fmt:bundle></h1>
-<<<<<<< HEAD
-<!-- Jeg tror det er her vi skal sette cookie og hente inn http header -->
-
-
-=======
->>>>>>> 25e6b2e6bfbfa9aa5ebe794f593c1970de83336b
 
 <c:forEach items="${products}" var="item">
 

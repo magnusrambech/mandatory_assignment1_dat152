@@ -60,7 +60,7 @@
         </tr>
     </c:forEach>
 </table>
-<p>${total}</p>
+<p>Sum: ${total}</p>
 <a href="/cart?action=clear">EMPTY CART</a>
 <p><a href="/">Hjem </a> <a href="/products"> Products</a></p>
 </body>

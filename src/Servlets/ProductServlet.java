@@ -21,7 +21,6 @@ public class ProductServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
 
-
     public ProductServlet() {
         super();
     }
@@ -58,17 +57,17 @@ public class ProductServlet extends HttpServlet {
 
             switch (localeCookie.getValue()){
                 case "nb_NO" :
-                    convertion = 9.71;
+                    convertion = 10;
                     break;
                 case "en_US" :
-                    convertion = 1.16;
+                    convertion = 1;
                     break;
                 case "nl_NL" :
                     convertion = 1;
                     break;
             }
             DecimalFormat df = new DecimalFormat("#.##");
-            p.setPriceInEuro(Double.parseDouble(df.format(p.getPriceInEuro()*convertion)));
+            p.setPriceInEuro(Double.parseDouble(df.format(p.getPriceInEuro() * convertion)));
         }
 
         request.setAttribute("products",products);
