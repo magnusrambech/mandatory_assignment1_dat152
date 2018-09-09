@@ -15,6 +15,7 @@ public class ProductDAO {
       public ProductDAO(){}
 
       //Mock methods
+
       public ArrayList<Product> getAllProductsMock(){
             ArrayList<Product> temp = new ArrayList<Product>();
             Product OJ = new Product(1, "Orange Juice", 3, "orange.jpg");
