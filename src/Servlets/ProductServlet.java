@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 @WebServlet("/products")
@@ -49,6 +50,25 @@ public class ProductServlet extends HttpServlet {
 
         for(Product p : products){
             p.setDesc(descriptionDAOController.getDescriptionByPno(p.getPno(),localeCookie.getValue()));
+        }
+
+        //endrer valuta
+        double convertion = 1;
+        for (Product p : products) {
+
+            switch (localeCookie.getValue()){
+                case "nb_NO" :
+                    convertion = 9.71;
+                    break;
+                case "en_US" :
+                    convertion = 1.16;
+                    break;
+                case "nl_NL" :
+                    convertion = 1;
+                    break;
+            }
+            DecimalFormat df = new DecimalFormat("#.##");
+            p.setPriceInEuro(Double.parseDouble(df.format(p.getPriceInEuro()*convertion)));
         }
 
         request.setAttribute("products",products);

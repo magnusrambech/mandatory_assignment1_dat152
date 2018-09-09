@@ -49,7 +49,7 @@ public class ProductDAO {
             ){
                   pstmt.setInt(1, newProduct.getPno());
                   pstmt.setString(2, newProduct.getpName());
-                  pstmt.setInt(3, newProduct.getPriceInEuro());
+                  pstmt.setDouble(3, newProduct.getPriceInEuro());
                   pstmt.setString(4, newProduct.getImageFile());
                   pstmt.executeUpdate();
             } catch (SQLException e) {
