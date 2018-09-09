@@ -11,7 +11,7 @@ public class Product {
       public Product(){
 
       }
-      public Product(Integer pno, String pName, double priceInEuro, String imageFile) {
+      public Product(Integer pno, String pName, Double priceInEuro, String imageFile) {
             this.pno = pno;
             this.pName = pName;
             this.priceInEuro = priceInEuro;
@@ -35,11 +35,11 @@ public class Product {
             this.pName = pName;
       }
 
-      public double getPriceInEuro() {
+      public Double getPriceInEuro() {
             return priceInEuro;
       }
 
-      public void setPriceInEuro(double priceInEuro) {
+      public void setPriceInEuro(Double priceInEuro) {
             this.priceInEuro = priceInEuro;
       }
 
@@ -50,6 +50,8 @@ public class Product {
       public void setImageFile(String imageFile) {
             this.imageFile = imageFile;
       }
+
+
 
       public void setDesc(Description desc) {
             this.desc = desc;

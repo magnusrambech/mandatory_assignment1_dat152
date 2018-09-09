@@ -15,11 +15,10 @@ public class ProductDAO {
       public ProductDAO(){}
 
       //Mock methods
-
       public ArrayList<Product> getAllProductsMock(){
             ArrayList<Product> temp = new ArrayList<Product>();
-            Product OJ = new Product(1, "Orange Juice", 3, "orange.jpg");
-            Product Avac = new Product(2,"Avocado",2,"avocado.jpg");
+            Product OJ = new Product(1, "Orange Juice", 3.0, "orange.jpg");
+            Product Avac = new Product(2,"Avocado",2.0,"avocado.jpg");
             temp.add(OJ);
             temp.add(Avac);
 
@@ -39,7 +38,7 @@ public class ProductDAO {
 
 
       // SQL methods. Working, but decided to hardcode as sqlite caused nothing but trouble when working collabrative
-      public void addProducts(Integer pno, String pName, Integer priceInEuro, String imageFile){
+      public void addProducts(Integer pno, String pName, Double priceInEuro, String imageFile){
             Product newProduct;
             newProduct = new Product(pno, pName, priceInEuro, imageFile);
 
@@ -69,7 +68,7 @@ public class ProductDAO {
                         Product currProd = new Product();
                         currProd.setPno(rs.getInt("pno"));
                         currProd.setpName(rs.getString("pname"));
-                        currProd.setPriceInEuro(rs.getInt("priceInEuro"));
+                        currProd.setPriceInEuro(rs.getDouble("priceInEuro"));
                         currProd.setImageFile(rs.getString("imageFile"));
 
                         temp.add(currProd);
@@ -92,7 +91,7 @@ public class ProductDAO {
                         Product product = new Product();
                         product.setPno(rs.getInt("pno"));
                         product.setpName(rs.getString("pname"));
-                        product.setPriceInEuro(rs.getInt("priceInEuro"));
+                        product.setPriceInEuro(rs.getDouble("priceInEuro"));
                         product.setImageFile(rs.getString("imageFile"));
                         return product;
                   }
