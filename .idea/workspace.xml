@@ -31,8 +31,8 @@
           <file leaf-file-name="cart.jsp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/web/cart.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="258">
-                  <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+                <state relative-caret-position="581">
+                  <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
                 </state>
               </provider>
             </entry>
@@ -519,12 +519,12 @@
       <workItem from="1536424110775" duration="4783000" />
       <workItem from="1536443829698" duration="13335000" />
       <workItem from="1536484447935" duration="18025000" />
-      <workItem from="1536506244586" duration="5185000" />
+      <workItem from="1536506244586" duration="6031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50408000" />
+    <option name="totallyTimeSpent" value="51254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
@@ -548,10 +548,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32872656" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32872656" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4897059" visible="true" weight="0.11816406" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4897059" visible="true" weight="0.11816406" />
       <window_info id="Web" order="2" sideWeight="0.51029414" side_tool="true" visible="true" weight="0.11816406" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -904,8 +904,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/cart.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="581">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
