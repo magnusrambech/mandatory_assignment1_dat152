@@ -50,21 +50,23 @@
         <th>Total</th>
     </tr>
 <c:set var="total" value="${0}"/>
+<c:set var="symbol" />
 
     <c:forEach items="${cart}" var="item">
         <c:set var="total" value="${total + item.getTotal()}"/>
+        <c:set var="symbol" value="${item.getProduct().getDesc().getSymbol()}"/>
         <tr>
             <td>${item.getProduct().getpName()}</td>
             <td>
                 <custom:shortText maxchars="10" fullText='${item.getProduct().getDesc().getdText()}'/>
             </td>
-            <td>${item.getProduct().getPriceInEuro()}</td>
+            <td>${item.getProduct().getPriceInEuro()} ${item.getProduct().getDesc().getSymbol()}</td>
             <td> ${item.getQuantity()}</td>
-            <td> ${item.getTotal()}</td>
+            <td> ${item.getTotal()} ${item.getProduct().getDesc().getSymbol()}</td>
         </tr>
     </c:forEach>
 </table>
-<p>Sum: ${total}</p>
+<p>Sum: ${total} ${symbol}</p>
 <a href="/cart?action=clear">EMPTY CART</a>
 <p><a href="/">Hjem </a> <a href="/products"> Products</a></p>
 

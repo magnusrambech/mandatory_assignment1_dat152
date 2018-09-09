@@ -2,6 +2,7 @@ package Servlets;
 
 import Controllers.DescriptionDAOController;
 import Controllers.ProductsDAOController;
+import Entities.CurrencyConverter;
 import Entities.Product;
 import com.google.gson.Gson;
 
@@ -51,23 +52,11 @@ public class ProductServlet extends HttpServlet {
             p.setDesc(descriptionDAOController.getDescriptionByPno(p.getPno(),localeCookie.getValue()));
         }
 
-        //endrer valuta
-        double convertion = 1;
-        for (Product p : products) {
+        CurrencyConverter converter = new CurrencyConverter(localeCookie.getValue());
 
-            switch (localeCookie.getValue()){
-                case "nb_NO" :
-                    convertion = 10;
-                    break;
-                case "en_US" :
-                    convertion = 1;
-                    break;
-                case "nl_NL" :
-                    convertion = 1;
-                    break;
-            }
-            DecimalFormat df = new DecimalFormat("#.##");
-            p.setPriceInEuro(Double.parseDouble(df.format(p.getPriceInEuro() * convertion)));
+        for (Product p : products) {
+            Double newPrice = converter.Convert(p.getPriceInEuro());
+            p.setPriceInEuro(newPrice);
         }
 
         request.setAttribute("products",products);
