@@ -6,26 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f96bbd08-314a-4c81-8da5-3d0fe68cca43" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assignment1_webApp.iml" afterPath="$PROJECT_DIR$/Assignment1_webApp.iml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Messages.properties" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Messages.properties" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Messages_nb.properties" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Messages_nb.properties" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Messages_nl.properties" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/WEB-INF/classes/Messages_nl.properties" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/cart.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/cart.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/home.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/home.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/language.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/language.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/products.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Assignment1_webApp_war_exploded/products.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Messages.properties" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Messages.properties" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Messages_nb.properties" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Messages_nb.properties" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1_webApp/Messages_nl.properties" afterPath="$PROJECT_DIR$/out/production/Assignment1_webApp/Messages_nl.properties" />
-      <change beforePath="$PROJECT_DIR$/src/Messages.properties" afterPath="$PROJECT_DIR$/src/Messages.properties" />
-      <change beforePath="$PROJECT_DIR$/src/Messages_nb.properties" afterPath="$PROJECT_DIR$/src/Messages_nb.properties" />
-      <change beforePath="$PROJECT_DIR$/src/Messages_nl.properties" afterPath="$PROJECT_DIR$/src/Messages_nl.properties" />
-      <change beforePath="$PROJECT_DIR$/web/cart.jsp" afterPath="$PROJECT_DIR$/web/cart.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/home.jsp" afterPath="$PROJECT_DIR$/web/home.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/products.jsp" afterPath="$PROJECT_DIR$/web/products.jsp" />
-    </list>
+    <list default="true" id="f96bbd08-314a-4c81-8da5-3d0fe68cca43" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -197,7 +178,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ProductServlet.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ProductServlet.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Servlets/ProductServlet.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="884">
@@ -240,12 +221,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ProductDAO.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ProductDAO.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/DAO/ProductDAO.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+                <state relative-caret-position="272">
+                  <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
                   <folding>
+                    <element signature="e#374#383#0" expanded="true" />
                     <element signature="method#addProducts#0;class#ProductDAO#0" expanded="false" />
                     <element signature="method#getAllProducts#0;class#ProductDAO#0" expanded="false" />
                     <element signature="e#1944#1953#0" expanded="true" />
@@ -370,18 +352,13 @@
             <path>
               <item name="mandatory_assignment1_dat152" type="b2602c69:ProjectViewProjectNode" />
               <item name="mandatory_assignment1_dat152" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mandatory_assignment1_dat152" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mandatory_assignment1_dat152" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mandatory_assignment1_dat152" type="b2602c69:ProjectViewProjectNode" />
               <item name="mandatory_assignment1_dat152" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CustomTags" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mandatory_assignment1_dat152" type="b2602c69:ProjectViewProjectNode" />
@@ -415,9 +392,9 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Globalisering - web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.43325877" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -691,12 +668,12 @@
       <workItem from="1536417205260" duration="1484000" />
       <workItem from="1536424110775" duration="4783000" />
       <workItem from="1536443829698" duration="13335000" />
-      <workItem from="1536484447935" duration="17046000" />
+      <workItem from="1536484447935" duration="18025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44244000" />
+    <option name="totallyTimeSpent" value="45223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2513" height="1456" extended-state="6" />
@@ -929,19 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/ProductDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding>
-            <element signature="method#addProducts#0;class#ProductDAO#0" expanded="false" />
-            <element signature="method#getAllProducts#0;class#ProductDAO#0" expanded="false" />
-            <element signature="e#1944#1953#0" expanded="true" />
-            <element signature="method#getProductByPno#0;class#ProductDAO#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/DescriptionDAOController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1140,14 +1104,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Servlets/ProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/products.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="734">
@@ -1214,6 +1170,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlets/ProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/ProductDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#374#383#0" expanded="true" />
+            <element signature="method#addProducts#0;class#ProductDAO#0" expanded="false" />
+            <element signature="method#getAllProducts#0;class#ProductDAO#0" expanded="false" />
+            <element signature="e#1944#1953#0" expanded="true" />
+            <element signature="method#getProductByPno#0;class#ProductDAO#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1224,7 +1202,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.43325877" />
                 <option value="0.5" />
               </list>
             </option>
