@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>
@@ -20,7 +21,15 @@
 <h1>
     <fmt:bundle basename="Messages"><fmt:message key="products"/></fmt:bundle></h1>
 <!-- Jeg tror det er her vi skal sette cookie og hente inn http header -->
-<jsp:useBean id='product' scope='session' class='Entities.Product'/>
+<c:forEach items="${products}" var="item">
+
+    <div>
+        <h1>${item.getpName()}</h1>
+        <h2>${item.getPriceInEuro()} £</h2>
+        <img src='images/${item.getImageFile()}'>
+    </div>
+
+</c:forEach>
 
 
 
