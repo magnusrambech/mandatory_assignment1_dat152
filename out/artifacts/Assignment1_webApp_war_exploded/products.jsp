@@ -43,7 +43,6 @@
 
 
 <fmt:bundle basename="Messages">
-    <a href="/GetProducts">TEST</a>
     <p><a href="home.jsp">
         <fmt:message key="home"/>
     </a> <a href="cart.jsp">
